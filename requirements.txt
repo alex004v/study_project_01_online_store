@@ -1,0 +1,35 @@
+name: av_env
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - jupyter
+  - jupyter_client
+  - jupyter_console
+  - jupyter_core
+  - jupyterlab
+  - jupyterlab_server
+  - requests
+  - nest-asyncio
+  - python=3.13.9
+  - pip:
+    - pandas==2.2.3
+    - matplotlib==3.10.7
+    - numpy==2.3.5
+    - plotly==6.5.0
+    - scikit-learn==1.7.2 
+    - scipy==1.16.3
+    - seaborn==0.13.2
+    - statsmodels==0.14.5
+    - beautifulsoup4==4.14.2
+    - nltk==3.9.2
+    - regex==2025.11.3
+    - psycopg2-binary==2.9.10
+    - sqlalchemy==2.0.44
+    - phik==0.12.5
+    - shap==0.50.0
+prefix: /opt/conda
